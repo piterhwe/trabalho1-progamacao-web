@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho 1 - Programação WEB</title>
+</head>
+    <body>
+        <h1>
+            <em>
+                Nomes:
+                <br>
+                Pedro Kibelkstis de Oliveira
+                <br>
+                Gabriel Barbarini
+            </em>
+        </h1>
+        
+        <hr>
+        
+        <h2>
+            a
+        </h2>
+        <h3>
+            Usado para referenciar links utilizando o atributo “href”.
+        </h3>
+        <p>
+            &lt;a&gt;&lt;/a&gt; <!--erro de formatação padrão pq o simbolo visual de "maior/menor que" (&gt;/&lt;) tem que terminar com ";"--> <!--patched-->
+                                <!--esse mesmo erro percorre quase o código inteiro ,_, -->
+            <br>
+            &lt;;a&gt;; href=”https://developers.google.com/workspace/classroom?hl=pt-br”>Google Classroom para Desenvolvedores&lt;;/a&gt;;
+            <br>
+            <a href='https://developers.google.com/workspace/classroom?hl=pt-br'>Google Classroom para Desenvolvedores</a> <!--quando referenciar um link dentro do href, usa aspas simples, ao invés de aspas duplas--> <!--patched-->
+        </p>
+
+        <hr>
+
+        <h1>
+            img
+        </h1>
+        <h2>
+            Usado para inserir uma imagem utilizando os atributos: “src” e “alt” para dar descrição à imagem.
+        </h2>
+        <p>
+            &lt;img&gt;
+            <br>
+            &lt;img src=”./download.jfif” alt=”imagem_de_gato”&gt; <!--quando der alt pra uma imagem, não usar espaços--> <!--patched-->
+            <br>
+            <img src="./download.jfif" alt=”imagem_de_gato”>
+        </p>
+
+        <hr>
+
+        <h1>
+            B, i, mark, small, del, sub, sup, q, abbr:
+        </h1>
+        <h2>
+            Utilizados para dar estilo simples em textos.
+        </h2>
+        <p>
+            <h3>b: negrito</h3>
+            &lt;p&gt;&lt;b&gt;Hoje eu comi ovo&lt;/b&gt;&lt;/p&gt;
+            <br>
+            <p><b>Hoje eu comi ovo</b></p>
+            <br>
+
+            <h3>i: itálico</h3>
+            &lt;p&gt;&lt;i&gt;Hoje eu comi ovo&lt;/i&gt;&lt;/p&gt;
+            <br>
+            <p><i>Hoje eu comi ovo</i></p>
+            <br>
+
+            <h3>mark: grifa o texto</h3>
+            &lt;p&gt;&lt;mark&gt;Hoje eu comi ovo&lt;/mark&gt;&lt;/p&gt;
+            <br>
+            <p><mark>Hoje eu comi ovo</mark></p>
+            <br>
+
+            <h3>small: deixa o texto menor em relação à outro texto</h3>
+            &lt;p&gt;Hoje eu comi ovo&lt;p&gt;
+            <br>
+            &lt;p&gt;&lt;small&gt;Hoje eu comi ovo&lt;/small&gt;&lt;/p&gt;
+            <br>
+            <p>Hoje eu comi ovo</p>
+            <p><small>Hoje eu comi ovo</small></p>
+            <br>
+
+            <h3>del: corta a parte de um texto</h3>
+            &lt;p&gt;&lt;del&gt;Hoje eu comi ovo&lt;/del&gt;&lt;/p&gt;
+            <br>
+            <p><del>Hoje eu comi ovo</del></p>
+            <br>
+
+            <h3>sub: deixa a parte de um texto mais baixa em relação ao texto</h3>
+            &lt;p&gt;Hoje eu comi &lt;sub&gt;ovo&lt;/sub&gt;&lt;/p&gt;
+            <br>
+            <p>Hoje eu comi <sub>ovo</sub></p>
+            <br>
+
+            <h3>sup: deixa a parte de um texto mais alta em relação ao texto</h3>
+            &lt;p&gt;Hoje eu comi &lt;sup&gt;ovo&lt;/sup&gt;&lt;/p&gt;
+            <br>
+            <p>Hoje eu comi <sup>ovo</sup></p>
+            <br>
+
+            <h3>q: dá aspas a uma parte do texto</h3>
+            &lt;p&gt;Hoje eu comi &lt;q&gt;ovo&lt;/q&gt;&lt;/p&gt;
+            <br>
+            <p>Hoje eu comi <q>ovo</q></p>
+            <br>
+
+            <h3>abbr: indica e mostra uma abreviação em uma parte do texto ao passar com o mouse em cima do texto abreviado</h3>
+            &lt;p&gt;&lt;abbr title="Hoje"&gt;Hj&lt;abbr&gt; eu comi ovo/p&gt;
+            <br>
+            <p><abbr title="Hoje">Hj</abbr> eu comi ovo</p>
+            <br>
+
+        <hr>
+
+        <h2>
+            Blockquote:
+        </h2>
+        <h3>
+            Dá espaçamento apropriado para blocos de citação
+        </h3>
+        <p>
+            &lt;p&gt;Parte da Epopéia Odisseia&lt;/p&gt;
+            <br>
+            &lt;blockquote&gt;"São tantos os males que já tenho suportado, tantos os trabalhos, no mar e na guerra! Venha mais este a juntar-se àqueles!"&lt;/blockquote&gt;
+            <br>
+            <p>Parte da Epopéia Odisseia</p>
+            <blockquote>"São tantos os males que já tenho suportado, tantos os trabalhos, no mar e na guerra! <br> Venha mais este a juntar-se àqueles!"</blockquote>
+
+        <hr>
+
+        <h2>
+            bdo, dir:
+        </h2>
+        <h3>
+            Substitui a ordem de uma frase bidirecionalmente utilizando o atributo "dir".
+        </h3>
+        <p>
+            &lt;p&gt;&lt;bdo&gt;&lt;dir="ltr"&gt;Esse texto vai pra direita&lt;bdo&gt;&lt;/p&gt;
+            <br>
+            &lt;p&gt;&lt;bdo&gt;&lt;dir="rtl"&gt;Esse texto vai pra esquerda&lt;bdo&gt;&lt;/p&gt;
+            <br>
+            <p><bdo dir="ltr">Esse texto vai pra direita</bdo></p>
+            <p><bdo dir="rtl">Esse texto vai pra esquerda</bdo></p>
+
+        <hr>
+
+        <h2>
+            ul, li:
+        </h2>
+        <h3>
+            Cria uma lista não-ordenada
+        </h3>
+        <p>
+            &lt;ul&gt;
+            <br>
+            &lt;li&gt;Banana&lt;/li&gt;
+            <br>
+            &lt;li&gt;Pão&lt;/li&gt;
+            <br>
+            &lt;li&gt;Café&lt;/li&gt;
+            <br>
+            &lt;/ul&gt;
+            <br>
+            <ul>
+                <li>Banana</li>
+                <li>Pão</li>
+                <li>Café</li>
+            </ul>
+
+        <hr>
+
+        <h2>
+            ol:
+        </h2>
+        <h3>
+            Cria uma lista ordenada
+        </h3>
+        <p>
+            &lt;ol&gt;
+            <br>
+            &lt;li&gt;Banana&lt;/li&gt;
+            <br>
+            &lt;li&gt;Pão&lt;/li&gt;
+            <br>
+            &lt;li&gt;Café&lt;/li&gt;
+            <br>
+            &lt;/ol&gt;
+            <br>
+            <ol>
+                <li>Banana</li>
+                <li>Pão</li>
+                <li>Café</li>
+            </ol>
+    </body>
+</html>
